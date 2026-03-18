@@ -1,0 +1,23 @@
+# Jupyter artifacts
+.ipynb_checkpoints/
+*.pyc
+__pycache__/
+
+# Datasets — do not push CSV files to GitHub
+*.csv
+*.xlsx
+*.xls
+
+# Model weights
+*.h5
+*.keras
+*.pb
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python env
+venv/
+env/
+.env
